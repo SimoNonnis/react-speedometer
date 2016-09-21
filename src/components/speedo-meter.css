@@ -1,0 +1,41 @@
+@import './css-shared/variables.css';
+@import './css-shared/media-queries.css';
+
+.box {
+  min-width: 300px;
+
+  background-color: var(--indianBlue);
+	border-radius: 2px;
+	padding: 3em 2em;
+  box-shadow: 3px 3px var(--yellow);
+}
+
+.bigValueSymbol {
+  font-size: 5rem;
+  padding-right: .2em;
+}
+.bigValue {
+  line-height: .7;
+  font-size: 11rem;
+  text-align: center;
+}
+
+.containerMinMax {
+  margin-top: 3em;
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+.valueSymbol {
+  font-size: 2rem;
+  padding-right: .2em;
+}
+
+
+@media (--plus400) {
+  .box {
+    min-width: 350px;
+  }
+}
