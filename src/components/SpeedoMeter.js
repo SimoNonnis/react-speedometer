@@ -15,6 +15,9 @@ const SpeedoMeter = (props) => {
       </h1>
       <div className={styles.meterContainer}>
         <div className={styles.meter}></div>
+        <div className={styles.niddle}>
+          <span className={styles.niddleCenter}></span>
+        </div>
       </div>
       <div className={styles.containerMinMax}>
         <h2>
